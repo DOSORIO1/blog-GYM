@@ -1,0 +1,17 @@
+::-webkit-scrollbar{
+    display: none;
+}
+#seccion0{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('IMAGENES/local.jpg') no-repeat center fixed;
+    height: 100vh;
+    background-size: cover;
+    margin-top: 2.9rem;
+    padding-right: 0;
+    padding-left: 0;
+        
+}
+#gym{
+    border: seashell;
+    padding: 3rem;
+    backdrop-filter: blur(5px);
+}
