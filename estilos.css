@@ -8,10 +8,20 @@
     margin-top: 2.9rem;
     padding-right: 0;
     padding-left: 0;
-        
+        padding-top: 1.5rem;
 }
 #gym{
-    border: seashell;
+    border: 5px solid #ffffff6c;
     padding: 3rem;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px) brightness(140%);
+    margin-top: 3rem;
 }
+
+#gym *{
+    position: relative;
+}
+
+#seccion1
+
+
+
