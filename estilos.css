@@ -1,14 +1,19 @@
+
+
+     
+
+
 ::-webkit-scrollbar{
     display: none;
 }
 #seccion0{
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('IMAGENES/local.jpg') no-repeat center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url('IMAGENES/fondo4.jpg') no-repeat center fixed;
     height: 100vh;
     background-size: cover;
     margin-top: 2.9rem;
     padding-right: 0;
     padding-left: 0;
-        padding-top: 1.5rem;
+    padding-top: 20rem;
 }
 #gym{
     border: 5px solid #ffffff6c;
@@ -21,7 +26,101 @@
     position: relative;
 }
 
-#seccion1
+#seccion1{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    height: 100vh;
+   background: url('IMAGENES/mujer1.jpg') no-repeat center center fixed;
+   background-size: cover;
+
+}
+
+.card{
+    position: relative;
+    width: 20rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    transform: scale(0.95);
+
+    -webkit-box-shadow: 0 0px 0px 0px #B31E1E;
+    box-shadow: 0 0px 0px 0px #B31E1E;
+
+    -webkit-transition: all 600ms ease-out;
+   -moz-transition: all 600ms ease-out;
+   -ms-transition: all 600ms ease-out;
+   -o-transition: all 600ms ease-out;
+    transition: all 600ms ease-out;
+
+}
+.card:hover{
+   
+    -webkit-box-shadow: 0 6px 9px -3px #B31E1E;
+    box-shadow: 0 6px 9px -3px #B31E1E;
+
+    -webkit-transition: all 200ms ease-out;
+   -moz-transition: all 200ms ease-out;
+   -ms-transition: all 200ms ease-out;
+   -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+    transform: scale(1.03);
+
+}
+.card-img-top{
+    height: 16vw;
+    object-fit: cover;
+    
+}
+#seccion1 .container{
+    width: 70rem;
+    padding: 1rem;
+    padding-top: 0;
+
+}
+
+#seccion2{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    height: 100vh;
+   background: url('IMAGENES/fondo01.jpg') no-repeat center center fixed;
+   background-size: cover;
+
+}
+#seccion2 .container{
+    width: 70rem;
+    padding: 1rem;
+    padding-top: 0;
+
+}
+ 
+#seccion3{
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    height: 100vh;
+   background: url('IMAGENES/mujer3.jpg') no-repeat center center fixed;
+   background-size: cover;
+
+}
+
+#seccion3 .container{
+    width: 70rem;
+    padding: 1rem;
+    padding-top: 0;
+
+}
+.circulo{
+    width: 4rem;
+    height: 4rem;
+    border-radius:4rem ;
+}
+
+
+
+
+
+
+
+
+
 
 
 
